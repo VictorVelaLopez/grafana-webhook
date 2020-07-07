@@ -1,0 +1,17 @@
+[
+  {
+    "id": "service-notify-test",
+    "execute-command": "/Users/vvl/bin/hook-service-test.sh",
+    "command-working-directory": "/tmp/",
+    "pass-arguments-to-command": [
+      {
+        "source": "payload",
+        "name": "instance"
+      },
+      {
+        "source": "payload",
+        "name": "name"
+      }
+    ]
+  }
+]
